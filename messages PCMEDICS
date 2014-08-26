@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost/" />
+<title>Inbox Admin</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Inbox Admin</td></tr>
+</thead><tbody>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/table/tbody/tr/td[1]/table/tbody/tr[1]/td[2]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=msg0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>name=RBot</td>
+	<td>Bottom Frame</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span[1]</td>
+	<td>Message and Reminder Center</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>class=hideDR css_button_small</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div/table/tbody/tr[2]/td/p/a[1]/span</td>
+	<td>Set As Completed</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=/html/body/div/table/tbody/tr[1]/td/p/a[3]/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>title=Send a Reminder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/h1</td>
+	<td>Send a Reminder</td>
+</tr>
+<tr>
+	<td>close</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>title=Training</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/table[1]/tbody/tr/td/span</td>
+	<td>Messages</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/table/tbody/tr/td[1]/table/tbody/tr[1]/td[2]/a/span</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
