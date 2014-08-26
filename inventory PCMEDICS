@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost/" />
+<title>Inventory PCMEDICS</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Inventory PCMEDICS</td></tr>
+</thead><tbody>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/table/tbody/tr/td[1]/table/tbody/tr[1]/td[2]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Inventory</td>
+	<td>Inventory</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Management</td>
+	<td>Management</td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/table/tbody/tr[1]/td[1]/a</td>
+	<td>Name</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/table/tbody/tr[1]/td[3]</td>
+	<td>Drug Code</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/table/tbody/tr[1]/td[4]</td>
+	<td>Form</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/table/tbody/tr[1]/td[5]</td>
+	<td>Size</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/table/tbody/tr[1]/td[6]</td>
+	<td>Unit</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/table/tbody/tr[1]/td[7]</td>
+	<td>New</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/table/tbody/tr[1]/td[8]</td>
+	<td>Lot</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/table/tbody/tr[1]/td[9]</td>
+	<td>Warehouse</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/table/tbody/tr[1]/td[10]</td>
+	<td>QOH</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/table/tbody/tr[1]/td[11]</td>
+	<td>Expires</td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Destroyed</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>title=Destroyed Items</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=html/body/center/h2</td>
+	<td>Destroyed Items</td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>close</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>title=Training</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/table/tbody/tr/td[1]/table/tbody/tr[1]/td[2]/a/span</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
