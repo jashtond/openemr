@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost/" />
+<title>Residents Admin</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Residents Admin</td></tr>
+</thead><tbody>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/table/tbody/tr/td[1]/table/tbody/tr[1]/td[2]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Volunteer/Client</td>
+	<td>Volunteer</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/ul/li[4]/ul/li[1]/a</td>
+	<td>Volunteers</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/form/ul/li[4]/ul/li[1]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/div/div/table/tbody/tr[2]/td[1]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div[1]/table/tbody/tr/td/div[1]/table/tbody/tr[1]/td/div[1]/table/tbody/tr/td/a/span[1]/b</td>
+	<td>Billing</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div[1]/table/tbody/tr/td/div[1]/table/tbody/tr[2]/td/div[1]/table/tbody/tr/td[2]/a/span[1]/b</td>
+	<td>Demographics</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/div[1]/table/tbody/tr/td/div[1]/table/tbody/tr[2]/td/div[1]/table/tbody/tr/td[1]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/div[2]/ul/li[1]/a</td>
+	<td>Home of Record</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/div[2]/div/div[1]/table/tbody/tr[1]/td[1]</td>
+	<td>Address:</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=/html/body/form/div[2]/ul/li[2]/a</td>
+	<td>Volunteer</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/div[2]/ul/li[2]/a</td>
+	<td>Volunteer</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/div[2]/div/div[2]/table/tbody/tr[1]/td[1]</td>
+	<td>Name:</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=/html/body/form/div[2]/ul/li[3]/a</td>
+	<td>Choices</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/div[2]/ul/li[3]/a</td>
+	<td>Choices</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/div[2]/div/div[3]/table/tbody/tr[1]/td[1]</td>
+	<td>PCMO:</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=/html/body/form/div[2]/ul/li[4]/a</td>
+	<td>Stats</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/div[2]/ul/li[4]/a</td>
+	<td>Stats</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/div[2]/div/div[4]/table/tbody/tr[1]/td[1]</td>
+	<td>Language:</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=/html/body/form/div[2]/ul/li[5]/a</td>
+	<td>Death</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/div[2]/ul/li[5]/a</td>
+	<td>Death</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/div[2]/div/div[5]/table/tbody/tr[1]/td[1]</td>
+	<td>Date Deceased:</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/form/table/tbody/tr/td[2]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div[1]/table/tbody/tr[1]/th[1]</td>
+	<td>Date</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/div[1]/a</td>
+	<td>Billing View</td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/table/tbody/tr/td[1]/table/tbody/tr[1]/td[2]/a/span</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
