@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost/" />
+<title>Reports Admin</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Reports Admin</td></tr>
+</thead><tbody>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/table/tbody/tr/td[1]/table/tbody/tr[1]/td[2]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Reports</td>
+	<td>Reports</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=/html/body/form/ul/li[9]/ul/li[1]/a/span</td>
+	<td>Volunteers</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=List</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Volunteer List</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Rx</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Prescriptions and Dispensations</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Clinical</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Clinical</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Referrals</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Referrals</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Immunization Registry</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Immunization Registry</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Clinic</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Report Results</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report History/Results</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/form/div[1]/table/tbody/tr/td[2]/table/tbody/tr/td/div/a[2]/span</td>
+	<td>Refresh</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report History/Results</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Standard Measures</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Standard Measures</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Quality Measures (CQM)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Clinical Quality Measures (CQM)</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Automated Measures (AMC)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Automated Measure Calculations (AMC)</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=AMC Tracking</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Automated Measure Calculations (AMC) Tracking</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=/html/body/form/ul/li[9]/ul/li[3]/a/span</td>
+	<td>Visits</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Appointments</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Appointments</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Encounters</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Encounters</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Medevac</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Medevac Report - Encounters</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Hospitalization</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Hospitalization Report - Encounters</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Appt-Enc</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Appointments and Encounters</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Superbill</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Reports - Superbill</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Eligibility</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Eligibility 270 Inquiry Batch</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Eligibility Response</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div[2]/span</td>
+	<td>EDI-271 File Upload</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Chart Activity</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Chart Location Activity</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Charts Out</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Charts Checked Out</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Services</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Services by Category</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Syndromic Surveillance</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Syndromic Surveillance - Non Reported Issues</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Financial</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Sales</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Sales by Item</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Cash Rec</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Cash Receipts by Provider</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Front Rec</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Front Office Receipts</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Pmt Method</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Receipts Summary</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Collections</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Collections</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Financial Summary by Service Code</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Financial Summary by Service Code</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=/html/body/form/ul/li[9]/ul/li[5]/a/span</td>
+	<td>Inventory</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=List</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Report - Volunteer List</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Activity</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/center/h2</td>
+	<td>Inventory Activity</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=/html/body/form/ul/li[9]/ul/li[6]/a/span</td>
+	<td>Procedures</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Pending Res</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>title=Pending Orders</td>
+	<td>Pending Orders</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/center/h2</td>
+	<td>Pending Orders</td>
+</tr>
+<tr>
+	<td>close</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>title=Training</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Statistics</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>title=Procedure Statistics Report</td>
+	<td>Procedure Statistics Report</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/center/h2</td>
+	<td>Procedure Statistics Report</td>
+</tr>
+<tr>
+	<td>close</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>title=Training</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Blank Forms</td>
+	<td>Report - Resident Payer Code Distribution</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/ul/li[9]/ul/li[7]/ul/li[1]/a</td>
+	<td>Demographics</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/ul/li[9]/ul/li[7]/ul/li[2]/a</td>
+	<td>Superbill/Fee Sheet</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/ul/li[9]/ul/li[7]/ul/li[3]/a</td>
+	<td>Referral</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=/html/body/form/ul/li[9]/ul/li[8]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Background Services</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Background Services</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Direct Message Log</td>
+	<td>Direct Message Log</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Direct Message Log</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/table/tbody/tr/td[1]/table/tbody/tr[1]/td[2]/a/span</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
