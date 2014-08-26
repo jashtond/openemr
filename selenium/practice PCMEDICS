@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost/" />
+<title>Practice Admin</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Practice Admin</td></tr>
+</thead><tbody>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/table/tbody/tr/td[1]/table/tbody/tr[1]/td[2]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Residents</td>
+	<td>Residents</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=//*[@id=&quot;psc0&quot;]</td>
+	<td>Resident Summary/Chart</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/table/tbody/tr/td[3]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/table/tbody/tr/td[3]/a[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/table/tbody/tr/td[3]/a[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/table/tbody/tr/td[3]/a[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/table/tbody/tr/td[3]/a[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/table/tbody/tr/td[3]/a[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/table/tbody/tr/td[3]/a[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/table/tbody/tr/td[3]/a[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/table/tbody/tr/td[3]/a[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=1012</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div[2]/table/tbody/tr/td/div/table/tbody/tr[2]/td/div/table/tbody/tr/td[2]/a/span/b</td>
+	<td>Demographics</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Practice</td>
+	<td>Practice</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Administrative</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=//*[@id='adp0']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div/b</td>
+	<td>Practice Settings</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Health Insurances</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div[2]/div[2]/b</td>
+	<td>Insurance Companies</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Vehicle Insurances</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div[2]/div[2]/b</td>
+	<td>Vehicle Insurance Companies</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Insurance Numbers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div[2]/div[2]/b</td>
+	<td>Insurance Numbers</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=X12 Partners</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div[2]/div[2]/b</td>
+	<td>X12 Partners</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Documents</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div[2]/div[2]/b</td>
+	<td>Documents</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Pharmacies</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div[2]/div[2]/b</td>
+	<td>Pharmacies</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=HL7 Viewer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div[2]/div[2]/b</td>
+	<td>HL7 Viewer</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Casamba</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div[2]/div[2]/b</td>
+	<td>Casamba Connection Information</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=External Links</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div[2]/div[2]/b</td>
+	<td>Manage External Links</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Procedures</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Pending Review</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/table[3]/tbody/tr/th</td>
+	<td>Performing Laboratory Facility</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Resident Results</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/table[2]/tbody/tr/td</td>
+	<td>Order</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Batch Results</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Administrative</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Addr Book</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div[2]/form/table[2]/tbody/tr/td</td>
+	<td>Name</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Bed Management</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Buildings</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/div/div/table/tbody/tr/td/b</td>
+	<td>Buildings</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Floors</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/div/div/table/tbody/tr/td/b</td>
+	<td>Floors</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Rooms</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/div/div/table/tbody/tr/td/b</td>
+	<td>Rooms</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Beds</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/div/div/table/tbody/tr/td/b</td>
+	<td>Beds</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Check Room Availability</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/table/tbody/tr/td/span</td>
+	<td>Check Room Availability</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Calendar Categories</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=html body.body_top div form div table tbody tr td b</td>
+	<td>Categories</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Ergo-Casamba Docs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Ergo - Casamba Documents`</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Facilities</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div/div/table/tbody/tr/td/b</td>
+	<td>Facilities</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Form Templates</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div/div/form/table/tbody/tr[2]/td/b</td>
+	<td>Import Template</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Forms Comp. Criteria</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div/div/div/b</td>
+	<td>Encounter forms and their required fields:</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Forms Workflow</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div/div/table/tbody/tr/td/b</td>
+	<td>Forms Workflow</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Group Session Docs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=html body.body_top div.title</td>
+	<td>Group Session Documents</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Mail Merge</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div/span</td>
+	<td>Form Letters</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Manage Xoom Chart</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=//*[@id=&quot;id_medical_speciality_column_header&quot;]</td>
+	<td>Medical Specialty</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Order Catalog</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/center/h3</td>
+	<td>Types of Orders and Results</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Organization</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div/div/table/tbody/tr/td/b</td>
+	<td>Organizations</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Patient Portal Forms</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/span</td>
+	<td>Patient Portal Forms Administration</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=//*[@id=&quot;adp0&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div/b</td>
+	<td>Practice Settings</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Services</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/center/table/tbody/tr/td/span</td>
+	<td>Not all fields are required for all codes or code types.</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Settings For 24 Hr Nursing Summary Report</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/table/tbody/tr/td/span</td>
+	<td>Category Mapping</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Shift Definition</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/table/tbody/tr/td/span</td>
+	<td>Shifts</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Golden Thread</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Golden Thread Rules</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div/table/tbody/tr/td/b</td>
+	<td>Golden Thread Rules</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Resident Incidents</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/table/tbody/tr/td/span</td>
+	<td>Incidents</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Custom Reports</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=New Report</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/span</td>
+	<td>New Report</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Manage Reports</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/table/tbody/tr/td/span</td>
+	<td>Custom Reports</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=/html/body/div/form/ul/li[6]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=//*[@id=&quot;adb0&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div[2]/form/table[2]/tbody/tr/td</td>
+	<td>Name</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Vehicle Insurance</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div[2]/div[2]/b</td>
+	<td>Vehicle Insurance Companies</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/table/tbody/tr/td[1]/table/tbody/tr[1]/td[2]/a/span</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
