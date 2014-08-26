@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost/" />
+<title>Procedures PCMEDICS</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Procedures PCMEDICS</td></tr>
+</thead><tbody>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/table/tbody/tr/td[1]/table/tbody/tr[1]/td[2]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Volunteer/Client</td>
+	<td>Volunteer</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/ul/li[4]/ul/li[1]/a</td>
+	<td>Volunteers</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/form/ul/li[4]/ul/li[1]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/div/div/table/tbody/tr[2]/td[1]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Procedures</td>
+	<td>Procedures</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Providers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div/form/table[2]/tbody/tr[1]/td[1]</td>
+	<td>Name</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Configuration</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/center/h3</td>
+	<td>Types of Orders and Results</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Load Compendium</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/center/form/table/tbody/tr[1]/td[1]</td>
+	<td>Vendor</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Pending Review</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/table[2]/tbody/tr[2]/td[1]</td>
+	<td>Date</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Volunteer Results</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/table[2]/tbody/tr[2]/td[1]</td>
+	<td>Date</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Lab Overview</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div/h2</td>
+	<td>Labs</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Batch Results</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/form/table/tbody/tr/td/input[5]</td>
+	<td>Refresh</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Electronic Reports</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/form/table[2]/tbody/tr[2]/td[1]</td>
+	<td>Name</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
